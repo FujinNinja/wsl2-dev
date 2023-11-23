@@ -190,4 +190,8 @@ ip a
 githubのソースコードではうまくいかないので、以下の手順を参考にします。   
 https://docs.requarks.io/install/linux
 
-このリポジトリではgithubフォルダ配下のwiki-jsリポジトリにwiki-js.tar.gzをダウンロードして展開してます。
+このリポジトリではgithubフォルダ配下のwiki-jsフォルダにwiki-js.tar.gzをダウンロードして展開してます。   
+
+Dockerでpostgresqlを立ち上げて、wiki-jsフォルダ配下のconfig.ymlのデータベース接続先設定をミスらなければ、立ち上がります。   
+
+nodeはnvm use 20のものを使用しています。 
