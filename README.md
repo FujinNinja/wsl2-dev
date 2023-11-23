@@ -79,8 +79,8 @@ VisualStudioCodeから操作するのが楽です。
 インストール後、拡張機能をインストールします。   
 以下、入ってると良いと思われる拡張機能です。
 
-[WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-[Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja)
+[WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)   
+[Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja)   
 [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
 ## nvmのインストール
