@@ -166,8 +166,9 @@ sudo chmod 666 /var/run/docker.sock
 実行したら、Docker DesktopのContainerにPostgreが追加され稼働する。
 以下の情報でpostgreに接続できるはず。
 
-ホスト名:localhost
-ポート番号:5432
-DB名:wiki
-ユーザー名:wikijs
-パスワード:wikijsrocks
+ホスト名:localhost   
+ポート番号:5432   
+DB名:wiki   
+ユーザー名:wikijs   
+パスワード:wikijsrocks   
+
