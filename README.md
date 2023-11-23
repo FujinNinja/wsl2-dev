@@ -168,9 +168,9 @@ sudo chmod 666 /var/run/docker.sock
 以下の情報でpostgreに接続できるはずです。   
 
 ポート番号:5432   
-DB名:wiki   
-ユーザー名:wikijs   
-パスワード:wikijsrocks   
+DB名:postgres   
+ユーザー名:postgres   
+パスワード:passw0rd   
 
 ホスト名だけはwsl側にipアドレスの設定が必要なので、それで確定します。
 
@@ -184,3 +184,10 @@ ip a
 ```
 
 現状ipアドレス固定にするいい方法が見つかりません。
+
+## wikijsの動作確認
+
+githubのソースコードではうまくいかないので、以下の手順を参考にします。   
+https://docs.requarks.io/install/linux
+
+このリポジトリではgithubフォルダ配下のwiki-jsリポジトリにwiki-js.tar.gzをダウンロードして展開してます。
