@@ -162,9 +162,9 @@ permission denied while trying to connect to the Docker daemon socket at unix://
 sudo chmod 666 /var/run/docker.sock
 ```
 
-したら実行される。
-実行したら、Docker DesktopのContainerにPostgreが追加され稼働する。
-以下の情報でpostgreに接続できるはず。
+したら実行される。   
+実行したら、Docker DesktopのContainerにPostgreが追加され稼働する。   
+以下の情報でpostgreに接続できるはず。   
 
 ホスト名:localhost   
 ポート番号:5432   
