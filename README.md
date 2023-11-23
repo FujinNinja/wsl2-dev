@@ -1,6 +1,6 @@
 # WSL2検証環境
 
-WSL2の検証環境です。
+WSL2の検証環境です。   
 Dockerやwikijs、wordpressなどの検証に使います。
 
 # 環境構築
@@ -43,10 +43,10 @@ Retype new password:
 
 ## Docker Desktopインストール
 
-以下のリンクからインストーラーをダウンロードし、インストールします。
+以下のリンクからインストーラーをダウンロードし、インストールします。   
 [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/)
 
-システム要件やWSL2の有効化設定は以下に記載があります。
+システム要件やWSL2の有効化設定は以下に記載があります。   
 [Windows に Docker Desktop をインストール](https://docs.docker.jp/docker-for-windows/install-windows-home.html)
 
 インストールが完了したら、以下のコマンドが使用できます。
@@ -65,8 +65,8 @@ WSL2でDocker Desktopを有効にするには
 windowsから見たらwsl2のパスは以下になります。
 \\wsl$\ubuntu\home\ubuntu
 
-Git Cloneは方法がいろいろありますが、特にやり方が決まってない場合は、以下をインストールします。
-[git](https://git-scm.com/)
+Git Cloneは方法がいろいろありますが、特にやり方が決まってない場合は、以下をインストールします。   
+[git](https://git-scm.com/)   
 [GitHub Desktop](https://desktop.github.com/)
 
 ## wsl2の操作
@@ -76,7 +76,7 @@ VisualStudioCodeから操作するのが楽です。
 
 [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code)
 
-インストール後、拡張機能をインストールします。
+インストール後、拡張機能をインストールします。   
 以下、入ってると良いと思われる拡張機能です。
 
 [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
