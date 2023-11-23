@@ -214,3 +214,39 @@ node server
 ```
 
 デバッグする際は確認したい場所にf9でブレークポイントを貼ります。   
+
+## スマホからのアクセス
+
+以下の対応が必要になります。   
+
+- Windowsディフェンダーのポート許可
+- netshによるポートフォワード
+
+### Windowsディフェンダーのポート許可
+
+左下検索から「セキュリティが強化された WIndows Defender ファイアウォール」を検索して開きます。   
+受信の規則に新しい規則を追加します。   
+ポートを選択して、「特定のローカルポート」に「3000」を設定します。   
+操作は「接続を許可する」を選択します。
+プロファイルは「プライベート」にチェックが入ってれば行けると思います。
+名前に「ポート3000 解放」あたりを付けて完了ボタンをクリックします。
+
+### netshによるポートフォワード
+
+以下のコマンドでポートフォワードができます。
+
+```
+netsh interface portproxy add v4tov4 listenport=3000 listenaddress=Windowsのipアドレス connectport=3000 connectaddress=127.0.0.1
+```
+
+設定確認は以下のコマンドでできます。
+
+```
+netsh interface portproxy show all
+```
+
+ポートフォワード設定は以下で削除ができます。
+
+```
+netsh interface portproxy delete v4tov4 listenport=3000 listenaddress=Windowsのipアドレス
+```
