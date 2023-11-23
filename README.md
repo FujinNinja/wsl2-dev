@@ -148,7 +148,7 @@ cd postgresql
 
 次に以下のコマンドを実行します。
 ```
-docker compose up
+docker compose up -d
 ```
 
 ただ、wsl2でdocker compose upコマンドをそのまま実行したところ以下のエラーが出てきました。   
@@ -164,12 +164,23 @@ sudo chmod 666 /var/run/docker.sock
 ```
 
 したら実行されます。   
-実行したら、Docker DesktopのContainerにPostgreが追加され稼働してます。   
+実行したら、Docker DesktopのContainerにPostgreが追加され稼働してます。 
 以下の情報でpostgreに接続できるはずです。   
 
-ホスト名:localhost   
 ポート番号:5432   
 DB名:wiki   
 ユーザー名:wikijs   
 パスワード:wikijsrocks   
 
+ホスト名だけはwsl側にipアドレスの設定が必要なので、それで確定します。
+
+## wslのipアドレス確認
+
+以下のコマンドでipアドレスが確認できます。   
+eth0に書いてあるipアドレスがホスト名です。
+
+```
+ip a
+```
+
+現状ipアドレス固定にするいい方法が見つかりません。
