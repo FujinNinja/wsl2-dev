@@ -139,33 +139,33 @@ nvm use 20
 ```
 
 ### Docker Composeの実行
-Postgresqlの例で説明する。   
-まずはdocker composeファイル（docker-compose.yml）の場所に移動する。   
+Postgresqlの例で説明します。   
+まずはdocker composeファイル（docker-compose.yml）の場所に移動します。   
 ```
 cd docker
 cd postgresql
 ```
 
-次に以下のコマンドを実行する。
+次に以下のコマンドを実行します。
 ```
 docker compose up
 ```
 
-ただ、wsl2でdocker compose upコマンドをそのまま実行したところ以下のエラーが出てきた。   
+ただ、wsl2でdocker compose upコマンドをそのまま実行したところ以下のエラーが出てきました。   
 
 ```
 permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Dpostgresql%22%3Atrue%7D%7D": dial unix /var/run/docker.sock: connect: permission denied
 ```
 
-このエラーの回避策として以下のコマンドを実行する。
+このエラーの回避策として以下のコマンドを実行します。
 
 ```
 sudo chmod 666 /var/run/docker.sock
 ```
 
-したら実行される。   
-実行したら、Docker DesktopのContainerにPostgreが追加され稼働する。   
-以下の情報でpostgreに接続できるはず。   
+したら実行されます。   
+実行したら、Docker DesktopのContainerにPostgreが追加され稼働してます。   
+以下の情報でpostgreに接続できるはずです。   
 
 ホスト名:localhost   
 ポート番号:5432   
