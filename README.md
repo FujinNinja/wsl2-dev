@@ -63,7 +63,7 @@ WSL2でDocker Desktopを有効にするには
 
 このライブラリをwsl上にクローンします。
 windowsから見たらwsl2のパスは以下になります。
-\\wsl$\ubuntu\home\ubuntu
+\\\wsl$\ubuntu\home\ubuntu
 
 Git Cloneは方法がいろいろありますが、特にやり方が決まってない場合は、以下をインストールします。   
 [git](https://git-scm.com/)   
