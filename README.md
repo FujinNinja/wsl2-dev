@@ -138,6 +138,7 @@ nvm use 21
 nvm use 20
 ```
 
+# 動作確認
 ## Docker Composeの実行
 Postgresqlの例で説明します。   
 まずはdocker composeファイル（docker-compose.yml）の場所に移動します。   
