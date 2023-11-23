@@ -201,3 +201,16 @@ https://docs.requarks.io/install/linux
 Dockerでpostgresqlを立ち上げて、wiki-jsフォルダ配下のconfig.ymlのデータベース接続先設定をミスらなければ、立ち上がります。   
 
 nodeはnvm use 20のものを使用しています。 
+
+## nodejsのデバッグ
+javascriptのデバッグをしたい場合は、VSCodeに以下の拡張機能をインストールします。   
+[JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly)   
+
+この拡張機能はターミナルを新たに追加する機能です。   
+このターミナル上から以下のコマンドを実行することで、デバッグできます。  
+
+```
+node server
+```
+
+デバッグする際は確認したい場所にf9でブレークポイントを貼ります。   
