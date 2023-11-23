@@ -250,3 +250,5 @@ netsh interface portproxy show all
 ```
 netsh interface portproxy delete v4tov4 listenport=3000 listenaddress=Windowsのipアドレス
 ```
+
+これによって、WindowsPCとスマホが同じネットワークにつながっている場合に限り、Windowsのipアドレス:3000でWindowsに構築したdockerのwebサービスにアクセスできます。
