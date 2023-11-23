@@ -12,8 +12,8 @@ Dockerやwikijs、wordpressなどの検証に使います。
 - Linux 用 Windows サブシステム
 
 **参考リンク**
-[WSLの有効化 ~埼玉大学 工学部 情報工学科 先端情報システム工学研究室~](https://www.aise.ics.saitama-u.ac.jp/~gotoh/HowToEnableWSL.html)
-[Windows 11 PC で仮想化を有効にする ~Microsoft Docs~](https://support.microsoft.com/ja-jp/windows/windows-11-pc-%E3%81%A7%E4%BB%AE%E6%83%B3%E5%8C%96%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B-c5578302-6e43-4b4b-a449-8ced115f58e1)
+[WSLの有効化【埼玉大学 工学部 情報工学科 先端情報システム工学研究室】](https://www.aise.ics.saitama-u.ac.jp/~gotoh/HowToEnableWSL.html)
+[Windows 11 PC で仮想化を有効にする【Microsoft Docs】](https://support.microsoft.com/ja-jp/windows/windows-11-pc-%E3%81%A7%E4%BB%AE%E6%83%B3%E5%8C%96%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B-c5578302-6e43-4b4b-a449-8ced115f58e1)
 
 
 ## WSLインストール
@@ -38,8 +38,8 @@ Retype new password:
 - パスワード ubuntu
 
 **参考リンク**
-[WSL を使用して Windows に Linux をインストールする方法 ~Microsoft Docs~](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-[WSL2 のインストール，WSL2 上への Ubuntu のインストールと利用 ~金子邦彦研究室~](https://www.kkaneko.jp/tools/wsl/wsl2.html)
+[WSL を使用して Windows に Linux をインストールする方法【Microsoft Docs】](https://learn.microsoft.com/ja-jp/windows/wsl/install)
+[WSL2 のインストール，WSL2 上への Ubuntu のインストールと利用【金子邦彦研究室】](https://www.kkaneko.jp/tools/wsl/wsl2.html)
 
 ## Docker Desktopインストール
 
