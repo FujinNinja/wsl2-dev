@@ -252,3 +252,53 @@ netsh interface portproxy delete v4tov4 listenport=3000 listenaddress=Windowsの
 ```
 
 これによって、WindowsPCとスマホが同じネットワークにつながっている場合に限り、Windowsのipアドレス:3000でWindowsに構築したdockerのwebサービスにアクセスできます。
+
+## mongodbの使用
+
+dockerフォルダ下のmongodbフォルダに移動します。   
+以下のコマンドを実行します。
+
+```
+docker compose up -d
+```
+
+mongodbを使うにはmongoshellをインストールします。
+
+[インストールmongosh](https://www.mongodb.com/docs/mongodb-shell/install/)   
+
+mongodbには以下のコマンドで接続できます。   
+
+```
+mongosh mydb
+```
+
+dbの一覧は以下で確認できます。  
+
+```
+show dbs
+```
+
+dbを新たに作成するには以下のコマンドでできます。
+このコマンドを使うだけではshow dbsに出てきません。
+
+```
+use sample_db
+```
+
+テーブルに相当するコレクションは以下のコマンドで作成できます。   
+
+```
+db.createCollection('user')
+```
+
+コレクションにレコード追加は以下のコマンドで出来ます。
+
+```
+db.user.insertOne({ id:1, name:'aaa', age:21 });
+```
+
+コレクションの中身は以下で確認できます。   
+
+```
+db.uiser.find();
+```
